@@ -270,7 +270,7 @@
 
 
 
-/* mobile responsive */
+/* ====== Mobile ====== */
 
 @media screen and (max-width: 320px){
     /* .display-flex{
@@ -380,7 +380,7 @@
 
 }
 
-/* mobile responsive */
+/* ====== Mobile ====== */
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
 .nav-link {
@@ -486,6 +486,32 @@
     padding: 18px 26px;
     margin-bottom: 216px;
     font-size: 8px;
+}
+
+}
+
+/* ====== Tablet ====== */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .teams {
+    flex-direction: column;
+}
+
+.fact-card {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.fact-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sponsor-images {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    filter: grayscale(100%);
+    align-content: center;
+    justify-items: center;
+    gap: 37px;
 }
 
 }
