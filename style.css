@@ -518,4 +518,49 @@
     padding: 127px;
 }
 
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    width: 100%;
+}
+
+.team-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+/* ====== responsive 992px ====== */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+.teams {
+    flex-direction: column;
+}
+
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    width: 100%;
+}
+
+.team-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.fact-card {
+    width: 95%;
+}
+
+}
+
+/* ====== responsive Laptop ====== */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+.footers {
+    padding: 34px 254px;
+}
 }
